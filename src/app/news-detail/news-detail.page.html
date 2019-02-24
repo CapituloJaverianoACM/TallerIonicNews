@@ -1,0 +1,24 @@
+  <ion-header>
+    <ion-toolbar>
+      <ion-title>{{articleToShow.title}}</ion-title>
+      <ion-buttons slot="start">
+        <ion-buttons slot="start">
+          <ion-back-button defaultHref="home"></ion-back-button>
+        </ion-buttons>
+      </ion-buttons>
+    </ion-toolbar>
+  </ion-header>
+  
+  <ion-content padding>
+    <ion-card>
+      <ion-img [src]="articleToShow.urlToImage"></ion-img>
+      <ion-card-header>
+        <ion-card-subtitle>{{articleToShow.source.name}}</ion-card-subtitle>
+        <ion-card-title>{{articleToShow.title}}</ion-card-title>
+      </ion-card-header>
+      
+      <ion-card-content>
+        {{articleToShow.description}}
+      </ion-card-content>
+    </ion-card>
+  </ion-content>
