@@ -31,7 +31,7 @@ En caso de que no estén instalados ir a [Nodejs](https://nodejs.org/en/).
 
 Instalar [Visual Estudio Code](https://code.visualstudio.com/)
 
-### Instalar y Crear Proyecto en Ionic Framwork
+### Instalar y Crear Proyecto en Ionic Framework
 
 ```shell
 sudo npm install -g ionic
@@ -155,7 +155,7 @@ En el archivo `src/app/news-detail/news-detail.page.html`
 
 ### Crear Modelo de Artículo
 
-Crear interfaz para mapear los datos a la app. Estos modelos los sacmos de la [NewsAPI](https://newsapi.org/)
+Crear interfaz para mapear los datos a la app. Estos modelos los sacamos de la [NewsAPI](https://newsapi.org/)
 
  `src/app/shared/article.ts`  
 
@@ -189,7 +189,7 @@ export interface NewsResponse {
 
 ### Crear Los Servicios
 
-Los servicios de Ionic vienen de Angular y el la capa que se encarga de conectarse con el *back end*. Esta capa se encarga de todos los métodos **HTTP** para bajar y subir datos normalmente en JSON.
+Los servicios de Ionic vienen de Angular, es capa que se encarga de conectarse con el *back end*. Esta capa se encarga de todos los métodos **HTTP** para bajar y subir datos normalmente en JSON.
 
 ```shell
 ionic generate service services/news # Para crearlos en una carpeta separada
@@ -259,7 +259,7 @@ export class AppModule {}
 
 ### Consumir los Servicios y Desplegar en el HTML
 
-En el archivo `src/app/home/home.page.ts` vamos declarar los servicios y obtener los artículos
+En el archivo `src/app/home/home.page.ts` vamos a declarar los servicios y obtener los artículos
 
 ```typescript
 import { Component, OnInit } from '@angular/core';
@@ -293,7 +293,7 @@ export class HomePage implements OnInit {
 
 ```
 
-En el archivo `src/app/home/home.page.html` vamos desplegar los artículos
+En el archivo `src/app/home/home.page.html` vamos a desplegar los artículos
 
 ```html
 <ion-header>
@@ -324,7 +324,7 @@ En el archivo `src/app/home/home.page.html` vamos desplegar los artículos
 
 ### Desplegar Detalle de Noticia en NewsDetail 
 
-La solución va a estar acontinuación un cosejo: No la veas antes de intentarlo  :)
+La solución va a estar a continuación un cosejo: <br /> No la veas antes de intentarlo  :)
 
 `src/app/news-detail/news-detail.ts`
 
