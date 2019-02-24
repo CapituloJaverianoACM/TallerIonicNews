@@ -17,7 +17,7 @@ Hacer una aplicación que muestre noticias recientes.
 
 ### Configuración del Entorno de Desarrollo 
 
-Verifivar que `node` y `npm` estén instalados.
+Verificar que `node` y `npm` estén instalados.
 
 ```shell
 node -v # 10.15.0
