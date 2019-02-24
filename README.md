@@ -4,7 +4,7 @@ Por **[Juan Pablo Peñaloza Botero](https://github.com/juanpa097)**
 
 ## Objetivos
 
-- Aprender a intalar y crear un nuevo proyecto en Ionic.
+- Aprender a instalar y crear un nuevo proyecto en Ionic.
 - Aprender la estructura de un proyecto de Ionic.
 - Aprender que es una *page* y un *provider*.
 - Aprender a ultilizar los Docs de Ionic.
