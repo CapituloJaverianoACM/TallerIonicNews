@@ -217,7 +217,7 @@ export class NewsService {
     const params = new HttpParams()
       .set('country', 'us') // Parámetros para get
       .set('apiKey', API_KEY);
-    return this.http.get<Article>(API_URL, { params }); // Retorna Observable
+    return this.http.get<NewsResponse>(API_URL, { params }); // Retorna Observable
   }
 
 }
